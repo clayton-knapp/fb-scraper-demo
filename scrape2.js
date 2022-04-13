@@ -109,6 +109,6 @@ async function getItems(){
 
 // TO CHANGE CRON TIME SCHEDULE
 // https://www.npmjs.com/package/node-cron
-cron.schedule('*/10 * * * *', function() {
-  getItems();
-});
+// cron.schedule('*/10 * * * *', function() {
+getItems();
+// });
